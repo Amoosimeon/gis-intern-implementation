@@ -1,0 +1,9 @@
+##Task 4
+##Challenge 1
+The SQL quary " `SELECT * FROM runners WHERE id NOT IN (SELECT winner_id FROM races) ORDER BY name asc` " will
+select from the database all runner whose id is not part of the winner_id in all the races and output it in ascending order
+
+##Challenge 2
+the     `Select * From Emp, Dept` will display 15 rows
+
+The quary selects all the 10 records in the Emp table and 5 records in the Dept table, therefore making it 15
